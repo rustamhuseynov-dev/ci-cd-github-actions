@@ -33,6 +33,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
+
   docker:
     name: Build and Deploy Docker Image
     runs-on: ubuntu-latest
